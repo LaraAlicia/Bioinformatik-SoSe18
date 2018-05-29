@@ -28,3 +28,4 @@ for i in range(len(sequence)): # erstellt Liste mit Indices der kmere
         kmer_list[list_index] += 1
 for i in kmer_list:
     print(i)
+# Ergebnis wird vertikal ausgegeben
