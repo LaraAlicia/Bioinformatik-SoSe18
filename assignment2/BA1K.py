@@ -27,5 +27,4 @@ for i in range(len(sequence)): # erstellt Liste mit Indices der kmere
             list_index -= 4**(k-j-1)
         kmer_list[list_index] += 1
 for i in kmer_list:
-    print(i)
-# Ergebnis wird vertikal ausgegeben
+    print(i, end-" ")
